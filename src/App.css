@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width:fit-content;
+  height: 100vh;
+  border-radius: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1rem;
+  border: 5px solid  #F4F4F4;;
+    
 }
+.content{
+width: 550px;
+height: 100vh;
+/* left: 76px; */
+background: #F4F4F4;
+border-radius: 10px;
 
-.App-link {
-  color: #61dafb;
 }
+.top{
+  position: absolute;
+  width: 550px;       
+  height: 285px;  
+  background: #6943FF;
+  border-radius: 10px;
+}
+.p1{
+  width: 448.4px;
+ height: 38px;
+margin-left: 51px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 28px; 
+ line-height: 38px; 
+/* /* identical to box height, or 136%  */
+
+text-align: center;
+ letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+input{
+  text-align: center;
+  width: 117px;
+height: 83px;
+margin-left: 217px;
+top: 101px;
+font-size: 50px;
+border: 2px solid #B295FF;
+border-radius: 5px;
+color: white;
+background-color: #6943FF;
+}
+.btn{
+  display: block;
+  width: 117px;
+height: 42px;
+margin-left: 217px;
+margin-top: 1em;
+
+background: #FFFFFF;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+cursor: pointer;
+}
+.length{
+/* position: absolute; */
+text-align: center;
+width: 500px;
+height: 108.57px;
+margin-left: 25px;
+/* margin-top: 8em; */
+background: #FFFFFF;
+padding: -10px;
+}
+h6{
+  display: inline-block;
+}
+@media only screen and (max-width:281px) {
+ 
+  .content{
+    position: absolute;
+    height: auto;
+    }
+    .top{
+       margin-top: 0!important;   
+       
+    }
+    p1{
+      width: 448.4px;
+     height: 38px;
+    margin-left: 90px;
+    
+    
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px; 
+     line-height: 38px; 
+    /* /* identical to box height, or 136%  */
+    
+    text-align: center;
+     letter-spacing: -0.03em;
+    
+    color: #FFFFFF;
+    }
 }
